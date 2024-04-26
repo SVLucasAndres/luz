@@ -14,7 +14,7 @@ export class HomePage implements OnInit {
     await LocalNotifications.schedule({//Elaboracion del objeto notificacion
       notifications: [
         {
-          title: "Esta es una notificación emergente",
+          title: '🥵',
           body: "Esta notificación debería ejecutarse en segundo plano pero no cuando lapp esté cerrada",
           id: 1
         }
